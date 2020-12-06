@@ -30,12 +30,75 @@
     <h2>Overview</h2>
     <p>The following reward matrix presents the episodic reward the row agent achieved in a series of two-player
         matches. For example, the first grid in upper left corner shows that the #1317 agent can achieve 882 reward when
-        competing with #7126 agent. Click  <a href="tournament-1.pdf.html">here</a> to see the raw figure.</p>
+        competing with #7126 agent. Click <a href="tournament-1.pdf">here</a> to see the raw figure.</p>
     <p>This matrix is sorted based on the average performance of one agent agianst all others (namely the last
         "average"column.) The agent is indexed by the last 4 digits of the student ID.</p>
     <p>We also provide a reward matrix sorted based on the agents' indices. Please find it in the bottom of the
         page.</p><br>
-    <img src="tournament-1.pdf" width="92%" style="box-shadow: 0px 0px 10px #ccc;"/>
+    <iframe allowtransparency="true" src="tournament-1.pdf" height="800px" width="92%"
+            style="box-shadow: 0px 0px 10px #ccc; background: #000000;" frameborder="0"></iframe>
+    <br>
+    <br>
+    <br>
+    <h2>Highlights</h2>
+
+
+    <table align="center" border="1" width="800">
+        <tr>
+            <td width="400" align="center"><b>How Zikai's agent (light) beat Lixin's (dark)</b></td>
+            <td width="400" align="center"><b>Zikai's agent's Solo</b></td>
+        </tr>
+        <tr>
+            <td width="400" align="center">
+                <video width="320" controls>
+                    <source src="Zikai-vs-Lixin-clip.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td width="400" align="center">
+                <video width="320" controls>
+                    <source src="Zikai-vs-alphacar.mp4" type="video/mp4">
+                </video>
+            </td>
+        </tr>
+        <tr>
+            <td width="400" align="center"><b>How Wu Tong's agent (dark) wins Zikai's (light)</b></td>
+            <td width="400" align="center"><b>How Zixing's agent (light) narrowly wins Zikai's</b></td>
+        </tr>
+        <tr>
+            <td width="400" align="center">
+                <video width="320" controls>
+                    <source src="Zikai-vs-Wutong-clip.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td width="400" align="center">
+                <video width="320" controls>
+                    <source src="Zixing-vs-Zikai-clip.mp4" type="video/mp4">
+                </video>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <h2>Common Techniques to improve performance</h2>
+
+    Hyper-parameter tunning, reward shaping and engineering, self-play, long training time, learning rate scheduling,
+    other algorithms, large training batch size, observation noise injection, etc.
+
+    <br>
+    <br>
+    <br>
+    <h2>Appendix</h2>
+    <p>To help you find your own agent, we also sorted the agent based on the agent's index, namely last 4 digits of you
+        SID. Click <a href="tournament-2.pdf">here</a> to see the raw figure.</p>
+    <br>
+    <br>
+    <iframe allowtransparency="true" src="tournament-2.pdf" height="800px" width="92%"
+            style="box-shadow: 0px 0px 10px #ccc; background: #000000;" frameborder="0"></iframe>
+    <br>
+    <br>
+    <br>
 </div>
 </body>
 </html>
